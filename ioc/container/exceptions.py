@@ -1,0 +1,6 @@
+class IocDependencyNotFoundError(Exception):
+    ...
+
+
+class ScopeRootNotHaveParentScope(Exception):
+    ...
